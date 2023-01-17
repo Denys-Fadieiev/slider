@@ -1,9 +1,10 @@
 import React from 'react';
 
-const SliderNavigation = () => {
+const SliderNavigation = ({handleNextSlide, handlePrevSlide} ) => {
   return (
     <div>
-      SliderNavigation
+      <button onClick={() => handlePrevSlide()}>{'<'}</button>
+      <button onClick={() => handleNextSlide()}>{'>'}</button>
     </div>
   );
 }
