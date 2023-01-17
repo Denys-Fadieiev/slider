@@ -1,10 +1,11 @@
 import './App.module.scss';
+import Slider from './components/Slider';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <article>
+      <Slider/>
+    </article>
   );
 }
 
