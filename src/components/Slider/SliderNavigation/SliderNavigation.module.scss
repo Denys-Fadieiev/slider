@@ -1,0 +1,29 @@
+@import '../../../common/styles/vars';
+@import '../../../common/styles/templates';
+
+.wrapperNavigation{
+  position: absolute;
+  top: 40%;
+  @extend %flex-jc-sb;
+  width: 100%;
+}
+
+.btnNav{
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 25px;
+  text-align: center;
+  color: $white-color;
+  background: $clear-black-color;
+}
+
+.btnNav:hover{
+  background: $clear-white-color;
+}
+
+@media screen and (min-width: 1400px) {
+  .wrapperNavigation{
+    top: 350px;
+  }
+}

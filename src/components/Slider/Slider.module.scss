@@ -1,0 +1,32 @@
+@import '../../common/styles/vars';
+@import '../../common/styles/templates';
+
+.content{
+  @extend %flex-center;
+  margin: 50px auto;
+  width: $content-min-widht;
+  border: 1px solid $clear-black-color;
+}
+
+.contentFullscreen{
+  width: $fullscreen-widht;
+}
+
+.slyder{
+  position: relative;
+  width: 100%;
+  border: solid 1px black;
+}
+
+
+@media screen and (min-width: 920px) {
+  .content{
+    width: $content-920-widht;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .content{
+    width: $content-max-widht;
+  }
+}
