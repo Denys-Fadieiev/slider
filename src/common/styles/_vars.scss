@@ -1,0 +1,32 @@
+// min size
+$content-min-widht: 100vw;
+$btn-closed-size-min: 25px;
+$title-fontSize-min: 10px;
+$desc-fontSize-min: 8px;
+$heightSlide: 0.5625 * $content-min-widht;
+
+// content 920px
+$content-920-widht: 920px;
+$heightSlide-content-920: 0.5625 * $content-920-widht;
+
+// max size
+$content-max-widht: 1200px;
+$heightSlide-content-1200: 0.5625 * $content-max-widht;
+
+// fullscreen
+$fullscreen-widht: 99vw;
+$fullscreen-height: 0.5625 * $fullscreen-widht;
+$fullscreen-height: 100vh;
+
+%flex-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-jc-sb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
