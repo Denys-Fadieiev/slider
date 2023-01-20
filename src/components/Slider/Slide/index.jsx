@@ -13,6 +13,7 @@ const Slide = ({
 			className={styles.wrapperSlide}
 			onMouseEnter={() => setIsHovered(true)}
 			onMouseLeave={() => setIsHovered(false)}
+			onDoubleClick={handleFullScreen}
 		>
       <div className={`${!isFullScreen ? styles.wrapperBtnClosed : styles.wrapperBtnClosedFullscreen}`}>
         {isHovered && isFullScreen && (
